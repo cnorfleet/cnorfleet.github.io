@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155071056-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-155071056-1');
+	</script>
+
+	<style>
+		.w3-row.custom-flex  {display: flex; flex-wrap: wrap;}
+		.w3-row.custom-flex.flex > .w3-col {flex: 1 0 290px;}
+		.w3-row-padding.custom-flex  {display: flex; flex-wrap: wrap;}
+		.w3-row-padding.custom-flex.flex > .w3-col {flex: 1 0 290px;}
+		.w3-top {position: sticky;}
+	</style>
+	
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/favicon/site.webmanifest">
+</head>
+<title>Caleb Norfleet's CV</title>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+	<div class="w3-bar w3-white w3-wide w3-padding w3-card">
+		<a href="#home" class="w3-bar-item w3-button"><b>Caleb Norfleet</b></a>
+		<!-- Float links to the right. Hide them on small screens -->
+		<div class="w3-right w3-hide-small">
+			<a href="#about" class="w3-bar-item w3-button">About</a>
+			<a href="#experience" class="w3-bar-item w3-button">Experience</a>
+			<a href="#achievements" class="w3-bar-item w3-button">Achievements</a>
+			<a href="#projects" class="w3-bar-item w3-button">Projects</a>
+			<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+		</div>
+	</div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content" id="home">
+
+<!-- Content -->
+<div class="w3-content w3-padding" style="max-width:2000px">
+	<!-- About Section -->
+	<div class="w3-container w3-padding-16" id="about">
+		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+		<div class="w3-display-container w3-hide-large w3-show-small w3-show-medium" style="max-width:300px;">
+			<img src="images/about_photo.png" alt="Photo" style="width:100%">
+		</div>
+		<div class="w3-col l8 s12">
+			<div class="w3-display-container w3-margin-right">
+				<p>Hi! I'm Caleb Norfleet, a firmware engineer on the Advanced Hardware Engineering (AHE) team at Zoox. I’m a hardware and software developer with a passion for embedded systems and robotics. I have experience in everything from data structures to op-amps, and I’m exceptionally talented at thinking outside the box and finding novel ways to leverage tools from different disciplines to tackle complex problems. I’m an excellent teammate and leader, and an insanely hard worker. Contact me <a href="#contact">below</a> for references or any additional information!</p>
+				<a href="files/Resume_Caleb_Norfleet.pdf">My resume is available here.</a>
+			</div>
+		</div>
+		<div class="w3-col l4 w3-hide-small w3-hide-medium">
+			<div class="w3-display-container w3-margin-left">
+				<img src="images/about_photo.png" alt="Photo" style="width:100%">
+			</div>
+		</div>
+	</div>
+	
+	<!-- Experience Section -->
+	<div class="w3-container w3-padding-16" id="experience">
+		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Experience</h3>
+	</div>
+	
+	<div class="w3-row-padding custom-flex">
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='https://zoox.com/'">
+			<div class="w3-display-container">
+				<img src="images/zoox_logo.png" alt="Zoox" style="width:100%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Firmware engineer on the Advanced Hardware Engineering team at Zoox</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='https://www.bobcat.com/oc/index'">
+			<div class="w3-display-container">
+				<img src="images/doosan_bobcat_logo.jpg" alt="Bobcat" style="width:100%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Team lead of track loader autonomous navigation and obstacle avoidance project for Doosan Bobcat</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='https://dl.acm.org/doi/10.1145/3386263.3406930'">
+			<div class="w3-display-container">
+				<img src="images/glsvlsi_paper.png" alt="GLS VLSI" style="width:100%; padding-top:30%; padding-bottom:30%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Co-authored <i>A Board and Projects for an FPGA/Microcontroller-Based Embedded Systems Lab</i> (Great Lakes Symposium on VLSI 2020)</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='https://zoox.com/'">
+			<div class="w3-display-container">
+				<img src="images/zoox_logo.png" alt="Zoox" style="width:100%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Firmware engineering intern on the Advanced Hardware Engineering team at Zoox</h6>
+			</div>
+		</div>
+	</div>
+	
+	<div class="w3-row-padding custom-flex">
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='https://www.juniper.net/us/en/'">
+			<div class="w3-display-container">
+				<img src="images/juniper_logo.jpg" alt="Juniper Networks" style="width:100%; padding-top:35%; padding-bottom:35%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Behavioral IoT device fingerprinting system design for Juniper Networks</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='https://www.leidos.com/'">
+			<div class="w3-display-container">
+				<img src="images/leidos_logo.png" alt="Leidos" style="width:100%; padding-top:37.5%; padding-bottom:37.5%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>High-level synthesis parametrizable digital down-converter generator design for Leidos Innovations Center</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='https://www.foreveroceans.com/'">
+			<div class="w3-display-container">
+				<img src="images/forever_oceans.png" alt="Forever Oceans" style="width:100%; padding-top:35%; padding-bottom:35%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Robotics engineer at Forever Oceans</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/e85.jpg" alt="Digital Electronics Class" style="width:100%">
+				<h6>Head grader for Digital Electronics & Computer Architecture course</h6>
+			</div>
+		</div>
+	</div>
+	
+	<div class="w3-row-padding custom-flex">
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/e11robot.jpg" alt="Autonomous Vehicles Class" style="width:100%">
+				<h6>Lab proctor for Autonomous Vehicles course and tutor for Comp. Sci. Practices & Principles course </h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='https://www.gutbrains.com/'">
+			<div class="w3-display-container">
+				<img src="images/duke_bohorquez_lab.jpg" alt="Duke Bohórquez Lab" style="width:100%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Intern at Duke University Bohórquez Lab</h6>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Achievements Section -->
+	<div class="w3-container w3-padding-16" id="achievements">
+		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Achievements and Recognition</h3>
+	</div>
+	
+	<div class="w3-row-padding custom-flex">
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/holliday_leadership_award.jpeg" alt="Frederick N. Holliday Leadership Award" style="width:100%; padding-left:10%; padding-right:10%">
+				<h6>Selected for Frederick N. Holliday Leadership Award for “outstanding leadership in the Engineering Clinic program”</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/engineering_departmental_honors.jpeg" alt="Engineering Departmental Honors" style="width:100%; padding-left:12.5%; padding-right:12.5%">
+				<h6>Awarded Engineering Departmental Honors for "positive impact on the engineering profession and the larger community"</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/tbp_logo.jpeg" alt="Tau Beta Pi" style="width:100%; padding-left:10%; padding-right:10%">
+				<h6>Elected president of Harvey Mudd's Tau Beta Pi engineering honor society chapter</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/j_r_phillips_award.jpg" alt="J. R. Phillips Award" style="width:100%">
+				<h6>Selected for J. R. Phillips Award for "outstanding experimental technique and engineering judgment"</h6>
+			</div>
+		</div>
+	</div>
+	
+	<div class="w3-row-padding custom-flex">
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/platt_prize.png" alt="Platt Prize Award" style="width:100%">
+				<h6>Selected from class of 225 for Platt Prize Award "to honor exceptional academic achievement and community impact"</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/national_merit_logo.jpeg" alt="National Merit Scholar" style="width:100%; padding-top:10%; padding-bottom:10%">
+				<h6>National Merit Scholar (top <1% of entrants)</h6>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Project Section -->
+	<div class="w3-container w3-padding-16" id="projects">
+		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+	</div>
+	
+	<div class="w3-row-padding custom-flex">
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/shark_stac_animation.gif" alt="Shark STAC Animation" style="width:100%; padding-top:30%; padding-bottom:30%">
+				<h6>Motion planner for simulatenous shark tracking and environment sampling with multi-robot AUV system</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/localization_gps_outage_project.png" alt="Localization GPS Outage Project" style="width:100%; padding-top:12.5%; padding-bottom:12.5%">
+				<h6>Localization with intermittent GPS outages using unscented Kalman filter and SVR neural networks</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/jts_pcb.png" alt="JTS Rocket PCB" style="width:100%; padding-top:10%; padding-bottom:10%">
+				<h6>PCBA with pyro charge ignition, compute, and power management for high power rockets</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='files/Microprocessor_Systems_Report.pdf'">
+			<div class="w3-display-container">
+				<video style="width:100%" controls>
+					<source src="files/hard_drive_music_carol_of_the_bells.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<img src="images/e155_pcb.png" alt="Musical Hard Drives PCB" style="width:100%; padding-left:26.7%; padding-right:26.7%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Musical hard drives project</h6>
+			</div>
+		</div>
+	</div>
+	
+	<div class="w3-row-padding custom-flex">
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/rocket_tracker_pcb.png" alt="Rocket Data Logging PCB" style="width:100%; padding-top:20%; padding-bottom:20%">
+				<h6>PCBA and software for data logging during high power rocket launches</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='https://muddsub.org/'">
+			<div class="w3-display-container">
+				<img src="images/robosub.jpg" alt="RoboSub" style="width:100%">
+				<img src="images/robosub_pcb.jpg" alt="RoboSub Acoustics PCB" style="width:100%; padding-top:2%; padding-left:30.2%; padding-right:30.2%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>PCBA for RoboSub acoustic localization system with 4-channel synchronous ADC sampling</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/rocket_launch.jpg" alt="NAR Level 1 Rocket Launch" style="width:100%">
+				<h6>Mach 0.6 rocket launch for NAR level 1 high power rocketry certification</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='https://sites.google.com/g.hmc.edu/mars/teams/electronics-and-telemetry'">
+			<div class="w3-display-container">
+				<img src="images/mars_rocketry.jpg" alt="JTS Rocket Project" style="width:100%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Rocket to the edge of space project</h6>
+			</div>
+		</div>
+	</div>
+
+	<div class="w3-row-padding custom-flex">
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='files/VLSI_Report.pdf'">
+			<div class="w3-display-container">
+				<img src="images/vlsi_chip.png" alt="VLSI Microprocessor Project" style="width:100%; padding-top:2.5%; padding-bottom:2.5%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>VLSI microprocessor design, layout, and fabrication</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='files/E80_Report.pdf'">
+			<div class="w3-display-container">
+				<img src="images/e80.jpg" alt="AUV Project" style="width:100%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Autonomous underwater robot with light-based depth-sensing system</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/combat_robotics.jpg" alt="Combat Robotics" style="width:100%">
+				<h6>Co-president of Harvey Mudd combat robotics club</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='http://polymerspace.org/about/'">
+			<div class="w3-display-container">
+				<img src="images/polymerspace.jpg" alt="Polymerspace" style="width:100%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Treasurer and leadership board member for "Polymerspace" biology makerspace</h6>
+			</div>
+		</div>
+	</div>
+
+	<div class="w3-row-padding custom-flex">
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/photon_spinner_award.jpg" alt="Solar-Powered Motor Award" style="width:100%">
+				<h6>1st place, solar-powered motor optimization competition</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/multicycle_arm.png" alt="Multicycle ARM Microprocessor" style="width:100%; padding-top:28%; padding-bottom:28%">
+				<h6>Multicycle RISC ARM microprocessor SystemVerilog design</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='files/Claremont_Canopy_Final_Report.pdf'">
+			<div class="w3-display-container">
+				<img src="images/claremont_canopy.png" alt="Claremont Canopy" style="width:100%; padding-top:31.25%; padding-bottom:31.25%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Food transport system for Claremont Canopy catering company</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='files/Claremont_hearhere_2018_Fall.pdf'">
+			<div class="w3-display-container">
+				<img src="images/hearhere.jpg" alt="Hearhere Journal" style="width:100%; padding-left:7.5%; padding-right:7.5%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Editor for <i>hear|here</i>, a campus journal</h6>
+			</div>
+		</div>
+	</div>
+	
+	<div class="w3-row-padding custom-flex">
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='files/E11_Final_Report.pdf'">
+			<div class="w3-display-container">
+				<img src="images/e11.jpg" alt="Autonomous Vehicle Project" style="width:100%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>Autonomous vehicle project for class competition</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/graph_art.png" alt="Graph Theory Art" style="width:100%">
+				<h6>Graph theory visualization art project</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<img src="images/first_robotics_competition.jpg" alt="FIRST Robotics" style="width:100%">
+				<h6>Co-captain of FIRST Robotics Competition / FIRST Tech Challenge teams, 4 years</h6>
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom w3-hover-opacity"
+				onclick="window.location.href='https://www.caryacademy.org/news-stories/acsl-team-repeats-as-champs/'">
+			<div class="w3-display-container">
+				<img src="images/acsl.jpg" alt="ACSL Competition" style="width:100%; padding-top:20%; padding-bottom:20%">
+				<div class="w3-display-bottom w3-right w3-margin-right w3-margin-top">
+					<i class="fa fa-chevron-right w3-opacity-min" style="font-size:28px"></i></div>
+				<h6>1st place in division at national "All-Stars" competition for American Computer Science League</h6>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Contact Section -->
+	<div class="w3-container w3-padding-16" id="contact">
+		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact Info</h3>
+		<p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal">
+		</i><a href="mailto:cnorfleet0@gmail.com">cnorfleet0@gmail.com</a></p>
+		<p><i class="fa fa-linkedin-square fa-fw w3-margin-right w3-large w3-text-teal">
+		</i><a href="https://www.linkedin.com/in/caleb-norfleet">LinkedIn</a></p>
+		<hr>
+	</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+	<p></p>
+</footer>
+
+</body>
+</html>
